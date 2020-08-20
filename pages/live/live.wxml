@@ -1,0 +1,5 @@
+<!--pages/live/live.wxml-->
+<view class='view-img' bindtap='stopV'>
+  <image src='http://www.isgang.top/weixin/live.png' class='img' mode='widthFix'></image>
+</view>
+<image src='http://www.isgang.top/weixin/bobg.png' class='coverImg' mode='widthFix'></image>

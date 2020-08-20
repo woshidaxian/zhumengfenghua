@@ -1,0 +1,125 @@
+/* pages/scan/scan.wxss */
+.img-bg,.scanBg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.topView{
+  width: 60%;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background: #fff;
+  position: fixed;
+  top: 30rpx;
+  left: 80rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 60rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  box-shadow: 0rpx 5rpx 10rpx 0rpx rgb(196, 196, 196);
+}
+.topView-img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.topInp{
+  width: 70%;
+  height: 70rpx;
+  margin-left: 15rpx;
+}
+.bottomView{
+  width: 100%;
+  padding: 25rpx;
+  height: 450rpx;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.roading{
+  font-size: 60rpx;
+  color: #23c0c6;
+  padding-left: 30rpx;
+  padding-bottom: 10rpx;
+}
+.top1{
+  width: 88%;
+  height: 5rpx; 
+  background: #23c0c6;
+  border-radius: 5rpx;
+}
+.top2{
+  width: 82%;
+  height: 5rpx;
+  background: #23c0c6;
+  border-radius: 5rpx;
+  margin-top: 8rpx;
+  margin-left: 6%;
+}
+.top3{
+  width: 76%;
+  height: 5rpx;
+  background: #23c0c6;
+  margin-top: 6rpx;
+  margin-left: 12%;
+}
+.wai-box{
+  width: 86%;
+  height: 260rpx;
+  border: 20rpx solid #23c0c6;
+  border-radius: 30rpx;
+  margin-top: 18rpx;
+}
+.center-box{
+  height: 220rpx;
+  border: 20rpx solid #33919d;
+  border-radius: 19rpx;
+}
+.nei-box{
+  height: 220rpx;
+  background: rgba(35, 192, 197, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+.box-left{
+  width: 60%;
+  height: 100%;
+}
+.box-right{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-1{
+  color: #22bfc4;
+  padding-top: 18rpx;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+}
+.left-2{
+  color: #fff;
+  font-size: 24rpx;
+  padding: 8rpx 20rpx;
+}
+.left-3{
+  color: #22bfc4;
+  font-size: 25rpx;
+  text-align: right;
+  padding-right: 20rpx;
+}
+.right-btn{
+  width: 80%;
+  height: 40rpx;
+  border-radius: 14rpx;
+  border: 3rpx solid #22bfc4;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #22bfc4;
+  margin-top: 10rpx;
+}

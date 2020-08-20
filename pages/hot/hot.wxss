@@ -1,0 +1,290 @@
+/* pages/hot/hot.wxss */
+.container-box{
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
+.box-1{
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 34rpx;
+}
+.box-1::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.box-1-top{
+  width: 100%;
+  height: 200rpx;
+}
+.box-1-icon{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 25rpx;
+  margin-left: 25rpx;
+}
+.box-1-top-left,.box-1-top-right{
+  float: left;
+}
+.box-1-top-right-top,.box-1-top-right-bottom{
+  height: 100rpx;
+  max-width: 530rpx;
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.box-1-top-right-top{
+  line-height: 140rpx;
+}
+.box-1-top-right-bottom{
+  line-height: 60rpx;
+  color: #bfbfbf;
+}
+
+.box-1-bottom{
+  padding: 0 20rpx;
+  font-size: 34rpx;
+  margin-top: 20rpx;
+}
+.box-1-bottom-left{
+  width: 49%;
+  float: left;
+  border-right: 2px solid #d7d7d7;
+}
+.box-1-bottom-right{
+  width: 49%;
+  float: right;
+  text-align: right;
+}
+.wenhao{
+  color: #8b96ca;
+}
+.btn-text{
+  color: #5b6dc7;
+}
+
+
+.box-2{
+  padding: 40rpx 20rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+.box-2::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.box-2-tui{
+  font-size: 34rpx;
+}
+/* 圆 */
+.round{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  border: 1px solid #6375c9;
+}
+.roundbg{
+  background: #6375c9;
+}
+.round image{
+  width: 52rpx;
+  height: 52rpx;
+  position: relative;
+  top: -5rpx;
+  left: -5rpx;
+}
+.radio-1,.radio-2,.radio-3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  margin-left: 5rpx;
+}
+.text-style{
+  margin-left: 15rpx;
+}
+
+.text-yuji{
+  margin-top: 30rpx;
+  font-size: 34rpx;
+}
+
+.yuji-num{
+  width: 100%;
+  height: 140rpx;
+  font-size: 60rpx;
+  text-align: center;
+  line-height: 140rpx;
+  color: #6274c9;
+}
+.text-money{
+  font-size: 34rpx;
+}
+
+.text-style-money{
+  display: block;
+  float: left;
+  border: 1px solid #333333;
+  border-radius: 10rpx;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 32rpx;
+  margin-left: 25rpx;
+  margin-top: 10rpx;
+}
+.other-style-money{
+  color: #6173c7;
+  border-color: #6173c7;
+}
+
+
+.box-3{
+  padding: 10rpx 20rpx;
+}
+/* 确认投放金额 */
+.sure-money-top::after,.sure-money::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.toufang{
+  float: left;
+}
+.heji{
+  float: right;
+}
+.sure-money-bottom{
+  margin-top: 20rpx;
+}
+.bottom-text{
+  font-size: 28rpx;
+  float: left;
+  color: #979797;
+  margin-left: 10rpx;
+}
+/* 阅读并同意 */
+.round1{
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+  border: 1px solid #6375c9;
+  float: left;
+}
+.round1 image{
+  width: 42rpx;
+  height: 42rpx;
+  position: relative;
+  top: -4rpx;
+  left: -4rpx;
+}
+
+.view-pay{
+  margin-top: 10rpx;
+}
+.view-pay::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.pay-money{
+  float: left;
+  color: #6173ca;
+}
+.btn-pay{
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #6173ca;
+  color: #fff;
+  float: right;
+}
+
+
+.fixedBox{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* 投放目标 */
+.fixedBox-1{
+  width: 739rpx;
+  height: 400rpx;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  margin-left: 6rpx;
+}
+.fixedBox-2{
+  width: 739rpx;
+  height: 280rpx;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  margin-left: 6rpx;
+}
+.fixedBox-none{
+  display: none;
+}
+
+.cancel{
+  float: left;
+  margin-left: 40rpx;
+}
+.goal{
+  float: left;
+  text-align: center;
+  margin-left: 44rpx;
+}
+.goal-2{
+  font-size: 26rpx;
+  color: #b5b5b5;
+}
+.complete{
+  float: right;
+  margin-right: 40rpx;
+}
+.fixedBox-1-top::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.fixedBox-1-top{
+  margin-top: 20rpx;
+}
+.btnstyle{
+  margin-top: 10rpx;
+  width: 600rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #c6c9dc;
+  color: #4f5255;
+}
+.btnactive{
+  background: #c9ceec;
+  color: #5b6ec6;
+}
+
+.fixedBox-2-top{
+  margin-top: 20rpx;
+}
+.fixedBox-2-top::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.goal2{
+  float: left;
+  margin-left: 190rpx;
+}

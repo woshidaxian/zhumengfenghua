@@ -1,0 +1,54 @@
+<!--pages/list/list.wxml-->
+<view class='bg'>
+  <view class='nav'>
+    <view class='nav-style nav-active'>每日</view>
+    <view class='nav-style'>每周</view>
+    <view class='nav-style'>每月</view>
+    <view class='nav-style'>总榜</view>
+  </view>
+  <view class='topThree'>
+    <view class='top2'>
+      <view class='top2-r'>
+        <image src='http://www.isgang.top/weixin/hg1.png' class='top2-img-s'></image>
+        <image src='http://www.isgang.top/weixin/sj0.jpg' class='top2-headImg'></image>
+      </view>
+      <view class='view-text'>
+        <view class='text-name'>必胜客</view>
+        <view class='text-time'>283人</view>
+      </view>
+    </view>
+    <view class='top1'>
+      <view class='top1-r'>
+        <image src='http://www.isgang.top/weixin/hg3.png' class='top1-img-s'></image>
+        <image src='http://www.isgang.top/weixin/sj1.jpg' class='top1-headImg'></image>
+      </view>
+      <view class='view-text'>
+        <view class='text-name'>肯德基</view>
+        <view class='text-time'>341人</view>
+      </view>
+    </view>
+    <view class='top3'>
+      <view class='top3-r'>      
+        <image src='http://www.isgang.top/weixin/hg2.png' class='top2-img-s'></image>
+        <image src='http://www.isgang.top/weixin/sj2.jpg' class='top3-headImg'></image>
+      </view>
+      <view class='view-text'>
+        <view class='text-name'>一点点</view>
+        <view class='text-time'>233人</view>
+      </view>
+    </view>
+  </view>
+  <scroll-view scroll-y='true' class='otherList'>
+    <block wx:for="{{listData}}" wx:key="{{id}}">
+      <view class='view-e'>
+        <view class='view-no'>{{item.no}}</view>
+        <view class='view-img'>
+          <image src='{{item.imgSrc}}'></image>
+        </view>
+        <view class='view-name'>{{item.name}}</view>
+        <view class='view-times'>{{item.times}}人</view>
+      </view>
+    </block>
+  </scroll-view>
+</view>
+  

@@ -1,0 +1,86 @@
+<!--pages/message/message.wxml-->
+<view class='fixedTop'>
+  <view class='top-nav active-nav'>
+    消息(2)
+  </view>
+  <view class='top-nav'>系统通知(1)</view>
+</view>
+<view class='noneTop'></view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/h2.png' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>彩虹星</view>
+      <view class='top-time'>12:24</view>
+    </view>
+    <view class='txtStyle1'>上次你说的那家店在哪里？</view>
+    <view class='txtStyle2'>—— 等等找你</view>
+  </view>
+</view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/g2.jpg' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>车车</view>
+      <view class='top-time'>10:45</view>
+    </view>
+    <view class='txtStyle3'>什么时候一起去玩</view>
+    <view class='txtStyle3'>—— 最近有点忙，下次来找你······</view>
+  </view>
+</view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/g3.jpg' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>时尚女主播</view>
+      <view class='top-time'>9:12</view>
+    </view>
+    <view class='txtStyle1'>那个APP真的很实用</view>
+    <view class='txtStyle2'>—— 谢谢！</view>
+  </view>
+</view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/head1.jpeg' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>薛定谔的猫</view>
+      <view class='top-time'>5月25日</view>
+    </view>
+    <view class='txtStyle3'>西湖有什么好玩的地方嘛</view>
+    <view class='txtStyle3'>—— 看我推荐的攻略哦。</view>
+  </view>
+</view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/head4.jpg' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>相机君</view>
+      <view class='top-time'>5月22日</view>
+    </view>
+    <view class='txtStyle3'>你好！！</view>
+    <view class='txtStyle3'>—— 你好哦</view>
+  </view>
+</view>
+<view class='mess-box'>
+  <view class='box-left'>
+    <image src='http://www.isgang.top/weixin/h2.png' class='imgStyle'></image>
+  </view>
+  <view class='box-right'>
+    <view class='box-right-top'>
+      <view class='top-nickname'>彩虹星</view>
+      <view class='top-time'>12:24</view>
+    </view>
+    <view class='txtStyle1'>上次你说的那家店在哪里？</view>
+    <view class='txtStyle2'>—— 等等找你</view>
+  </view>
+</view>

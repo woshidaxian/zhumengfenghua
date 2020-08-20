@@ -1,0 +1,159 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='view-search'>
+    <view class='view-message'>
+      <image src='http://www.isgang.top/weixin/message.png' class='icon-message'></image>
+    </view>
+    <view class='search'>
+      <input class='inp-search' placeholder='大家都在搜“筑梦风华“'></input>
+      <image src='http://www.isgang.top/weixin/search.png' class='icon-search'></image>
+    </view>
+    <view class='clock'>
+      <image src='http://www.isgang.top/weixin/clock.png' class='icon-clock'></image>
+    </view>
+  </view>
+  <!-- 占位 -->
+  <view style='height:90rpx;width:100%'></view>
+  <view class='view-bar'>
+    <swiper class='bar-swiper'
+      autoplay='true'
+      easing-function='easeInOutCubic'
+      interval='4000'>
+      <swiper-item>
+        <image src='http://www.isgang.top/weixin/ha1.jpg' mode='scaleToFill'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.isgang.top/weixin/ha2.jpg' mode='scaleToFill'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.isgang.top/weixin/ha3.jpg' mode='scaleToFill'></image>
+      </swiper-item>
+    </swiper>
+    <view class='bar-tab'>
+      <view class='bar-tab-1' bindtap='scan'>
+        <view class='bar-img-view'>
+          <image src='http://www.isgang.top/weixin/saoactive.png'></image>
+        </view>
+        <view class='bar-tab-textStyle-active'>
+          扫一扫
+        </view>
+      </view>
+      <view class='bar-tab-1' bindtap='ARphoto'>
+        <view class='bar-img-view'>
+          <image src='http://www.isgang.top/weixin/camera.png'></image>
+        </view>
+        <view class='bar-tab-textStyle'>
+          AR拍摄
+        </view>
+      </view>
+      <view class='bar-tab-1' bindtap='card'>
+        <view class='bar-img-view'>
+          <image src='http://www.isgang.top/weixin/detail.png'></image>
+        </view>
+        <view class='bar-tab-textStyle'>
+          打卡
+        </view>
+      </view>
+      <view class='bar-tab-1' bindtap='ARdaohang'>
+        <view class='bar-img-view'>
+          <image src='http://www.isgang.top/weixin/map.png'></image>
+        </view>
+        <view class='bar-tab-textStyle'>
+          AR导航
+        </view>
+      </view>
+      <view class='bar-tab-1' bindtap='more'>
+        <view class='bar-img-view'>
+          <image src='http://www.isgang.top/weixin/more.png'></image>
+        </view>
+        <view class='bar-tab-textStyle'>
+          更多
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='view-like'>
+    <view class='like-text-view'>
+      <view class='text-view-left'>
+        猜你喜欢 | 发现
+      </view>
+      <view class='text-view-right'>
+        更多>
+      </view>
+    </view>
+    <view class='likeThing-view'>
+      <view class='likeThing'>
+        <view class='likeThing-top'>
+          <image src='http://www.isgang.top/weixin/g1.jpg' ></image>
+        </view>
+        <view class='likeThing-bottom'>
+          <view class='likeThing-title'>
+            山野如归
+          </view>
+          <view class='likeThing-writer'>
+            by.Healing
+          </view>
+        </view>
+      </view>
+      <view class='likeThing'>
+        <view class='likeThing-top'>
+          <image src='http://www.isgang.top/weixin/g2.jpg' ></image>
+        </view>
+        <view class='likeThing-bottom'>
+          <view class='likeThing-title'>
+            我在希腊
+          </view>
+          <view class='likeThing-writer'>
+            by.小木偶人
+          </view>
+        </view>
+      </view>
+      <view class='likeThing'>
+        <view class='likeThing-top'>
+          <image src='http://www.isgang.top/weixin/g3.jpg' ></image>
+        </view>
+        <view class='likeThing-bottom'>
+          <view class='likeThing-title'>
+            你还好吗?
+          </view>
+          <view class='likeThing-writer'>
+            by.阿梦梦
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 占位 -->
+  <view style='width:100%;height:124rpx;'></view>
+</view>
+<view class='tab'>
+  <view class='tab-1'>
+    <view class='view-img'>
+      <image src='{{srcImg1}}' class='tab-icon'></image>
+    </view>
+    <view class='textStyle textStyle-active'>首页</view>
+  </view>
+  <view class='tab-2' bindtap='footprint'>
+    <view class='view-img'>
+      <image src='{{srcImg2}}' class='tab-icon'></image>
+    </view>
+    <view class='textStyle'>足迹</view>
+  </view>
+  <view class='tab-3'>
+    <view class='tab3'>
+      <image src='{{srcImg3}}' class='tab-icon-o'></image>
+    </view>
+  </view>
+  <view class='tab-4' bindtap='message'>
+    <view class='view-img'>
+      <image src='{{srcImg4}}' class='tab-icon'></image>
+    </view>
+    <view class='textStyle'>消息</view>
+  </view>
+  <view class='tab-5'>
+    <view class='view-img'>
+      <image src='{{srcImg5}}' class='tab-icon'></image>  
+    </view>
+    <view class='textStyle'>我的</view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+/* pages/qidong/qidong.wxss */
+.bg-img{
+  position: fixed;
+  top: -110rpx;
+  height: 100%;
+  width: 100%;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.btn{
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx; 
+  text-align: center;
+  background: #fff;
+  color: #f1a631;
+  position: fixed;
+  bottom: 13%;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+}
+.btn::after{
+    border-color: #f1a631;  
+   border-width: 2px; 
+   border-radius: 0; 
+}

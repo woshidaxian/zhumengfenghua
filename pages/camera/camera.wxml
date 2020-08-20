@@ -1,0 +1,7 @@
+<!--pages/camera/camera.wxml--> 
+<camera
+  device-position="back"
+  flash="auto"
+  binderror="error"
+  class='camera-style'>
+</camera>

@@ -1,0 +1,32 @@
+<!--pages/scan/scan.wxml-->
+<view class='scanBg'>
+  <image src='http://www.isgang.top/weixin/scanBg.png' mode='widthFix' class='img-bg'></image>
+  <view class='topView'>
+    <image src='http://www.isgang.top/weixin/search.png' class='topView-img'></image>
+    <input type='text' placeholder='输入位置' class='topInp'></input>
+  </view>
+  <view class='bottomView'>
+    <view class='roading'>Roading...</view>
+    <view class='top1'></view>
+    <view class='top2'></view>
+    <view class='top3'></view>
+    <view class='wai-box'>
+      <view class='center-box'>
+        <view class='nei-box'>
+          <view class='box-left'>
+            <view class='left-1'>三潭印月</view>
+            <view class='left-2'>西湖十景之一，被誉为“西湖第一胜境”，三潭印月是西湖中最大的岛屿，风景秀丽</view>
+            <view class='left-3'>>>>中国·杭州·西湖</view>
+          </view>
+          <view class='box-right'>
+            <view class='right-btn'>查看详情</view>
+            <view class='right-btn'>AR广场</view>
+            <view class='right-btn'>备忘录</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='top2' style='margin-top:10rpx;margin-left:4%'></view>
+    <view class='top3'></view>
+  </view>
+</view>

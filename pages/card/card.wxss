@@ -1,0 +1,160 @@
+/* pages/card/card.wxss */
+.container-card{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: #f8f9fd;
+}
+.top{
+  width: 100%;
+  height: 520rpx;
+  background: #8c98cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.bottom{
+  width: 100%;
+}
+/* 邀请好友 */
+.top-r{
+  width: 92rpx;
+  height: 86rpx;
+  background: linear-gradient(to right, #9288d1 , #ac72d8);
+  border-radius: 50%;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 40rpx;
+  position: relative;
+  top: -20rpx;
+  right: -50rpx;
+  padding-top: 6rpx;
+}
+.top-t-1{
+  margin-top: 42rpx;
+  font-size: 34rpx;
+}
+.top-t-2{
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+  margin-top: 52rpx;
+}
+.top-num{
+  color: #fff;
+  font-size: 90rpx;
+}
+/* 已参与人数 */
+.t-style{
+  color: #eaf81d;
+}
+.top-rules{
+  font-size: 32rpx;
+}
+
+/* 立即打卡 */
+.btn-liji{
+  width: 90%;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background: linear-gradient(to bottom,#9288d1 , #ac72d8);
+  color: #fff;
+  font-size: 35rpx;
+  text-align: center;
+  line-height: 90rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  box-shadow: 0rpx 10rpx 10rpx 0rpx #efd3c6;
+}
+.view-today{
+  width: 100%;
+  height: 150rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  font-family: 微软雅黑;
+  font-weight: 580;
+}
+.today-bottom{
+  margin-top: 18rpx;
+  color: #bcbcbc;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.color-red{
+  color: red;
+}
+.color-green{
+  color: #5cddae;
+}
+
+
+
+
+
+
+.bg-img{
+  width: 100%;
+  height: 60rpx;
+  position: fixed;
+  bottom: 0;
+}
+
+.view-topThree{
+  width: 100%;
+  height: 310rpx;
+  display: flex;
+  flex-direction: row;
+}
+.view-top{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topTwo-r{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 1px solid #cc8e90;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 25rpx;
+}
+.topOne-r{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 1px solid #b4bad5;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 25rpx;
+}
+.topThree-r{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 1px solid #e08a89;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 25rpx;
+}
+.top-img{
+  width: 130rpx;
+  height: 130rpx;
+}
+.img-top{
+  width: 190rpx;
+  height: 53rpx;
+  position: relative;
+  top: -20rpx;
+}
+.topName{
+  font-size: 34rpx;
+}
+.topTime{
+  color: #fe0c0c;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}

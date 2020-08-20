@@ -1,0 +1,3 @@
+<!--pages/qidong/qidong.wxml-->
+<image src='http://www.isgang.top/weixin/qdbj.jpg' class='bg-img' mode='aspectFill'></image>
+<button class='btn' bindtap='experience'>立即体验v.6</button>

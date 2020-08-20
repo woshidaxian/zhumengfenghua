@@ -1,0 +1,94 @@
+/* pages/login/login.wxss */
+.loginbg-img{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+.container-login{
+  width:670rpx;
+  height: 75%;
+  position: fixed;
+  left: 40rpx;
+  top: 80rpx;
+}
+.box-email,.box-pass{
+  width: 100%;
+  padding: 20rpx 0rpx;
+  margin-top: 16rpx; 
+  border-bottom: 1px solid #f8f8f8;
+  display: flex;
+  flex-direction: row;
+}
+.email-icon,.pass-icon-1,.pass-icon-2{
+  width: 48rpx;
+  height: 48rpx;
+}
+.email-icon,.pass-icon-1{
+  margin-left: 20rpx;
+}
+.email-inp,.pass-inp{
+  width: 500rpx;
+  font-size: 33rpx;
+  margin-left: 30rpx;
+}
+.box-register-forget-pass{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #b7b7b7;
+  font-size: 33rpx;
+  margin-top: 46rpx;
+}
+/* 注册 */
+.text-register{
+  float: left;
+  margin-left: 20rpx;
+}
+/* 忘记密码 */
+.text-forgetPassword{
+  float: right;
+  margin-right: 20rpx;
+}
+.box-register-forget-pass::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.btn-login,.btn-change{
+  width: 480rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 45rpx;
+  margin-top: 30rpx;
+  background: #7f87ac;
+  color: #fff;
+  font-size: 34rpx;
+}
+.btn-login{
+  margin-top: 50rpx;
+}
+.box-otherLogin{
+  width: 480rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+}
+.otherLogin-box{
+  width: 33.3%;
+  height: 130rpx;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.otherLogin-icon{
+  width: 64rpx;
+  height: 64rpx;
+  margin: 0 auto;
+}
+.otherLogin-text{
+  font-size: 22rpx;
+  color: #c3c3c3;
+  margin-top: 20rpx;
+}

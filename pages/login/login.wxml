@@ -1,0 +1,33 @@
+<!--pages/login/login.wxml-->
+<image src='http://www.isgang.top/weixin/loginbg.jpg' class='loginbg-img' mode='aspectFill'></image>
+<view class='container-login'>
+  <view class='box-email'>
+    <image src='http://www.isgang.top/weixin/xin.png' class='email-icon'></image>
+    <input type='text' placeholder='请输入邮箱号' class='email-inp'></input>
+  </view>
+  <view class='box-pass'>
+    <image src='http://www.isgang.top/weixin/suo.png' class='pass-icon-1'></image>
+    <input type="{{pass_show}}" class='pass-inp' placeholder='请输入密码'></input>
+    <image src='http://www.isgang.top/weixin/eye.png' class='pass-icon-2' bindtap='visableORhidden'></image>
+  </view>
+  <view class='box-register-forget-pass'>
+    <text class='text-register'>注册></text>
+    <text class='text-forgetPassword'>忘记密码?</text>
+  </view>
+  <button class='btn-login' bindtap='login'>登录</button>
+  <button class='btn-change'>切换 用户版/商家版</button>
+  <view class='box-otherLogin'>
+    <view class='otherLogin-box'>
+      <image src='http://www.isgang.top/weixin/wechat.png' class='otherLogin-icon'></image>
+      <text class='otherLogin-text'>微信一键登录</text>
+    </view>
+    <view class='otherLogin-box'>
+      <image src='http://www.isgang.top/weixin/qq.png' class='otherLogin-icon'></image>
+      <text class='otherLogin-text'>QQ一键登录</text>      
+    </view>
+    <view class='otherLogin-box'>
+      <image src='http://www.isgang.top/weixin/weibo.png' class='otherLogin-icon'></image>
+      <text class='otherLogin-text'>微博一键登录</text>      
+    </view>    
+  </view>
+</view>

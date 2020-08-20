@@ -1,0 +1,49 @@
+<!--pages/map/map.wxml-->
+<!-- <input class='map-search'></input> -->
+<view class='container-map'>
+  <map
+  id="map"
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  scale="14"
+  bindcontroltap="controltap"
+  bindmarkertap="markertap"
+  bindregionchange="regionchange"
+  show-location
+  style="width: 100%; height: 1014rpx;"
+  ></map>
+  <cover-view class='map-top-box'>
+    <cover-image src='http://www.isgang.top/weixin/search.png' class='top-box-img'></cover-image>
+  </cover-view>
+  <cover-view class='map-box'>
+    <cover-view class='map-box-top'>
+      <cover-view class='top-left'>
+        <cover-view class='top-left-1'>
+          吾悦广场
+        </cover-view>
+        <cover-view class='top-left-2'>
+          距您821米   宾王路与江东东路交叉口
+        </cover-view>
+        <cover-view class='top-left-3'>营业时间:09:30-22:00</cover-view>
+      </cover-view>
+      <cover-view class='top-right'>
+        <cover-view class='round'>
+          <cover-image src='http://www.isgang.top/weixin/ar.png' class='roundImg'></cover-image>
+          <cover-view style='color:#ff8331;margin-top:8rpx'>AR导航</cover-view>
+        </cover-view>
+      </cover-view>
+    </cover-view>
+    <cover-view class='map-box-bottom'>
+      <cover-view class='map-box-bottom-1'>
+        <cover-image src='http://www.isgang.top/weixin/xiang.png' class='bottom-icon'></cover-image>
+        <cover-view style='margin-left:18rpx;float:left'>查看详情</cover-view> 
+      </cover-view>
+      <cover-view class='map-box-bottom-2'>
+        <button class='btn-type'>模式</button>
+      </cover-view>
+      <cover-view class='map-box-bottom-3'>
+        <button class='btn-car'>打车</button>
+      </cover-view>      
+    </cover-view>
+  </cover-view>
+</view>

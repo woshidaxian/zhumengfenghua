@@ -1,0 +1,109 @@
+<!--pages/hot/hot.wxml-->
+<view class='container-box'>
+  <view class='box-1'>
+    <view class='box-1-top'>
+      <view class='box-1-top-left'>
+        <image src='http://www.isgang.top/weixin/xiongmaotou.png' class='box-1-icon'></image>
+      </view>
+      <view class='box-1-top-right'>
+        <view class='box-1-top-right-top'>"筑梦风华" 在杭州 #网红金达花</view>
+        <view class='box-1-top-right-bottom'>@网红小熊猫</view>
+      </view>
+    </view>
+    <view class='box-1-bottom'>
+      <view class='box-1-bottom-left'>期望提升
+        <text class='wenhao'>[?]</text>
+        <text class='btn-text' bindtap='btn_type'>{{hudong_type}}></text>
+      </view>
+      <view class='box-1-bottom-right'>投放时长
+        <text class='wenhao'>[?]</text>
+        <text class='btn-text' bindtap='btn_long'>{{timeLong}}></text>
+      </view>
+    </view>
+  </view>
+  <view class='box-2'>
+    <view class='box-2-tui'>
+      把视频推荐给潜在兴趣用户
+      <text class='wenhao'>[?]</text>
+    </view>
+    <view class='radio-1'>
+      <view class='round' bindtap='btn_radio_1'>
+        <image src='{{icon1}}'></image>
+      </view>
+      <text class='text-style'>系统智能投放</text>
+    </view>
+    <view class='radio-2'>
+      <view class='round' bindtap='btn_radio_2'>
+        <image src='{{icon2}}'></image>
+      </view>
+      <text class='text-style'>自定义定向投放</text>
+    </view>
+    <view class='radio-3'>
+      <view class='round' bindtap='btn_radio_3'>
+        <image src='{{icon3}}'></image>
+      </view>
+      <text class='text-style'>达人相似粉丝投放</text>
+    </view>
+    <view class='text-yuji'>
+      预计浏览量提升
+      <text class='wenhao'>[?]</text>
+    </view>
+    <view class='yuji-num'>5000+</view>
+    <view class='text-money'>
+      投放金额
+      <text class='wenhao'>[?]</text>
+    </view>
+    <view class='chose-money'>
+      <text class='text-style-money other-style-money'>￥100</text>
+      <text class='text-style-money'>￥200</text>
+      <text class='text-style-money'>￥500</text>
+      <text class='text-style-money'>￥1000</text>
+      <text class='text-style-money'>￥2000</text>
+      <text class='text-style-money'>自定义</text>
+    </view>
+  </view>
+  <view class='box-3'>
+    <view class='sure-money'>
+      <view class='sure-money-top'>
+        <view class='toufang'>投放金额</view>
+        <view class='heji'>合计￥100</view>
+      </view>
+      <view class='sure-money-bottom'>
+        <view class='round1' bindtap='btn_radio_agree'>
+          <image src='{{icon4}}'></image>
+        </view>
+        <view class='bottom-text'>我已阅读并同意e梦+服务协议和e梦+投放要求</view>
+      </view>
+    </view>
+    <view class='view-pay'>
+      <view class='pay-money'>￥100</view>
+      <button class='btn-pay'>支付</button>
+    </view>
+  </view>
+</view>
+<view class='fixedBox {{activeNone0}}'>
+  <view class='fixedBox-1 {{activeNone1}}'>
+    <view class='fixedBox-1-top'>
+      <view class='cancel' bindtap='cancel_time'>取消</view>
+      <view class='goal'>
+        <view class='goal-1'>投放目标</view>
+        <view class='goal-2'>500元以上的订单建议投放6小时以上</view>
+      </view>
+      <view class='complete' bindtap='complete_time'>完成</view>
+    </view>
+    <button class='btnstyle {{btnActive_six}}' bindtap='sixHours'>6小时</button>
+    <button class='btnstyle {{btnActive_twelve}}' bindtap='twelveHours'>12小时</button>
+    <button class='btnstyle {{btnActive_twentyFour}}' bindtap='twentyFourHours'>24小时</button>
+  </view>
+  <view class='fixedBox-2 {{activeNone2}}'>
+    <view class='fixedBox-2-top'>
+      <view class='cancel' bindtap='cancel_type'>取消</view>
+      <view class='goal2'>
+        <view class='goal-1'>投放目标</view>
+      </view>
+      <view class='complete' bindtap='complete_type'>完成</view>
+    </view>
+    <button class='btnstyle {{btnActive_hudong}}' bindtap='hudongliang'>互动量</button>
+    <button class='btnstyle {{btnActive_fans}}' bindtap='fans'>粉丝增长</button>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<!--pages/card/card.wxml-->
+<view class='container-card'>
+  <view class='top'>
+    <view class='top-num'>23560</view>
+    <view class='top-t-1'>明早6:00可随机瓜分金额</view>
+    <view class='top-t-2'>
+      当前有<text class='t-style'>1854</text>人参与打卡游戏
+      <view class='top-r'>
+        邀请
+        好友
+      </view>
+    </view>
+    <view class='top-rules'>挑 战 规 则 ></view>
+  </view>
+  <view class='bottom'>
+    <view class='btn-liji'>立即打卡</view>
+    <view class='view-today'>
+      <view class='today-top'>今日打卡战况</view>
+      <view class='today-bottom'>
+        <text class='color-red'>2960 </text>成功
+        <text>| </text>
+        <text class='color-green'>356 </text>失败
+      </view>
+    </view>
+    <view class='view-topThree'>
+      <view class='view-top'>
+        <view class='topTwo-r'>
+          <image src='http://www.isgang.top/weixin/h1.png' class='top-img'></image>
+        </view>
+        <image src='http://www.isgang.top/weixin/no2.png' class='img-top'></image>
+        <text class='topName'>金金</text>
+        <text class='topTime'>12:34</text>
+      </view>
+      <view class='view-top'>
+        <view class='topOne-r'>
+          <image src='http://www.isgang.top/weixin/h2.png' class='top-img'></image>
+        </view>
+        <image src='http://www.isgang.top/weixin/no1.png' class='img-top'></image>
+        <text class='topName'>小熊猫</text>
+        <text class='topTime'>12:09</text>
+      </view>
+      <view class='view-top'>
+        <view class='topThree-r'>
+          <image src='http://www.isgang.top/weixin/h3.png' class='top-img'></image>
+        </view>
+        <image src='http://www.isgang.top/weixin/no3.png' class='img-top'></image>
+        <text class='topName'>达达</text>
+        <text class='topTime'>13:19</text>
+      </view>
+    </view>
+  </view>
+  <image src='http://www.isgang.top/weixin/cardbj.png' class='bg-img'></image>
+</view>

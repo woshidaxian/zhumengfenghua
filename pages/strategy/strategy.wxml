@@ -1,0 +1,111 @@
+<!--pages/strategy/strategy.wxml-->
+<view class='fixedBar'>
+  <view class='inp-view'>
+    <image src='http://www.isgang.top/weixin/search.png' class='inp-view-img'></image>
+    <input type='text' placeholder='热门搜索 下沙网红 “香奈儿香水” 奶茶' class='inp'></input>
+  </view>
+</view>
+<view class='noneBar'></view>
+<view class='box'>
+ <view class='box-left'>
+  <view class='box-left-v'>
+    <view class='v-top'>
+      <image src='http://www.isgang.top/weixin/gl2.jpg' mode='widthFix' class='v-img'></image>
+    </view>
+    <view class='v-bottom'>
+      <view class='bottom-1'>
+        精致女孩手机必备54个小众又好玩的APP种草分分享大会
+      </view>
+      <view class='bottom-2'>
+        <view class='bottom-2-img'>
+          <image src='http://www.isgang.top/weixin/head1.jpeg' class='img-head'></image>
+        </view>
+        <view class='bottom-2-name'>Grace</view>
+        <view class='bottom-2-zan'>
+          <image src='http://www.isgang.top/weixin/zan.png' class='img-zan'></image>
+          <text class='bottom-txt'>68</text>
+        </view>
+        <view class='bottom-2-mess'>
+          <image src='http://www.isgang.top/weixin/mess.png' class='img-mess'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='box-left-v'>
+    <view class='v-top'>
+      <image src='http://www.isgang.top/weixin/gl4.jpg' mode='widthFix' class='v-img'></image>
+    </view>
+    <view class='v-bottom'>
+      <view class='bottom-1'>
+        继奈雪的茶和乐乐茶之后又一款奶茶爆红网络 喝过的人都说好
+      </view>
+      <view class='bottom-2'>
+        <view class='bottom-2-img'>
+          <image src='http://www.isgang.top/weixin/head4.jpg' class='img-head'></image>
+        </view>
+        <view class='bottom-2-name'>Grace</view>
+        <view class='bottom-2-zan'>
+          <image src='http://www.isgang.top/weixin/zan.png' class='img-zan'></image>
+          <text class='bottom-txt'>66</text>
+        </view>
+        <view class='bottom-2-mess'>
+          <image src='http://www.isgang.top/weixin/mess.png' class='img-mess'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+ </view>
+ <view class='box-right'>
+  <view class='box-right-v'>
+    <view class='v-top'>
+      <image src='http://www.isgang.top/weixin/gl3.jpg' mode='widthFix' class='v-img'></image>
+    </view>
+    <view class='v-bottom'>
+      <view class='bottom-1'>
+        水雾粉调滤镜
+      </view>
+      <view class='bottom-2'>
+        <view class='bottom-2-img'>
+          <image src='http://www.isgang.top/weixin/g3.jpg' class='img-head'></image>
+        </view>
+        <view class='bottom-2-name'>Liya</view>
+        <view class='bottom-2-zan'>
+          <image src='http://www.isgang.top/weixin/zan.png' class='img-zan'></image>
+          <text class='bottom-txt'>962</text>
+        </view>
+        <view class='bottom-2-mess'>
+          <image src='http://www.isgang.top/weixin/mess.png' class='img-mess'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='box-right-v'>
+    <view class='v-top'>
+      <image src='http://www.isgang.top/weixin/gl1.jpg' mode='widthFix' class='v-img'></image>
+    </view>
+    <view class='v-bottom'>
+      <view class='bottom-1'>
+        【攻略】魔都一家超级网红的森林彩虹滑梯|山顶滑下98
+      </view>
+      <view class='bottom-2'>
+        <view class='bottom-2-img'>
+          <image src='http://www.isgang.top/weixin/g3.jpg' class='img-head'></image>
+        </view>
+        <view class='bottom-2-name'>小蘑</view>
+        <view class='bottom-2-zan'>
+          <image src='http://www.isgang.top/weixin/zan.png' class='img-zan'></image>
+          <text class='bottom-txt'>96</text>
+        </view>
+        <view class='bottom-2-mess'>
+          <image src='http://www.isgang.top/weixin/mess.png' class='img-mess'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
+<view class='fixedJiaHao'>
+  <view class='jiahao'>
+    +
+  </view>
+</view>

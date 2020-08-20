@@ -1,0 +1,36 @@
+<!--pages/find/find.wxml-->
+<view class='view-top'>
+  <image src='http://www.isgang.top/weixin/findimg.png' class='topImg'></image>
+</view>
+<view class='view-bottom'>
+  <view class='bottom-1'>
+    <view class='head'>
+      <view class='head-title'>港味|火爆抖音的五条人糖水铺就在杭州！！</view>
+      <view class='head-label'>
+        <view class='label'>杭州美食</view>
+        <view class='label'>港式甜品</view>
+        <view class='label'>网红最爱</view>
+      </view>
+    </view>
+    <view class='afterHead'>
+      <view class='view-mess'>
+        <view class='mess-img'>
+          <image src='http://www.isgang.top/weixin/head1.jpeg'></image>
+        </view>
+        <view class='mess-other'>
+          <view class='other-name'>崽啊</view>
+          <view class='other-time'>2019.04.16</view>
+        </view>
+      </view>
+      <view class='view-txt'>
+        这些甜品都颜值超高，味道和外貌都在线。一口下去满满的幸福感~下次还想叫上更多的小伙伴一起来吃！！！
+      </view>
+      <view class='view-btn'>
+        <view class='btn'>查看评论</view>
+        <view class='btn'>加为好友</view>
+      </view>
+    </view>
+  </view>
+  <view class='bottom-2'></view>
+  <view class='bottom-3'></view>
+</view>

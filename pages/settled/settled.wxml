@@ -1,0 +1,18 @@
+<!--pages/settled/settled.wxml-->
+<view class='fixedTopBar'>
+  <view class='nav-style'>电影/演出</view>
+  <view class='nav-style nav-active'>美食</view>
+  <view class='nav-style'>酒店住宿</view>
+  <view class='nav-style'>休闲娱乐</view>
+  <view class='nav-style'>外卖</view>
+</view>
+<view class='fixedNone'></view>
+<block wx:for='{{listData}}' wx:key='id'>
+  <view class='view-style'>
+    <view class='view-img'>
+      <image src='{{item.imgSrc}}' class='img-style'></image>
+    </view>
+    <view class='view-name'>{{item.name}}</view>
+    <view class='view-status'>{{item.status}}</view>
+  </view>
+</block>

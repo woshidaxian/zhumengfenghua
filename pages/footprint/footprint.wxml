@@ -1,0 +1,312 @@
+<!--pages/footprint/footprint.wxml-->
+<view class='view-footprint'>
+  <view class='view-top'>
+    <view class='tab tab-active'>全部</view>
+    <view class='tab'>甜蜜旋风</view>
+    <view class='tab'>校园生活</view>
+    <view class='tab-end'>+自定义</view>
+  </view>
+  <!-- 占位 -->
+  <view class='view-none-top'></view>
+  <view class='view-center'>
+    <view class='center-left'>
+      <view class='line'>
+        <view class='line-round-white'>
+          <view class='line-round-purple'>
+            <image src='http://www.isgang.top/weixin/jl.png' class='line-icon'></image>
+          </view>
+        </view>
+        <view class='line-round-white' style='margin-top:530rpx'>
+          <view class='line-round-purple'>
+            <image src='http://www.isgang.top/weixin/jl.png' class='line-icon'></image>
+          </view>
+        </view>
+        <view class='line-round-white' style='margin-top:456rpx'>
+          <view class='line-round-purple'>
+            <image src='http://www.isgang.top/weixin/jl.png' class='line-icon'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='center-right'>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2018-02-17</view>
+          <view class='box-place'>杭州·西湖</view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text'>最近身体不是很好，幸亏有你一直陪在我的身边......</view>
+          <view class='box-img-view'>
+            <image src='http://www.isgang.top/weixin/g3.jpg' class='box-img'></image>
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>甜蜜旋风</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text-o'>
+            <view class='thing-list'>
+              <view class='list-left'>在 小杨生煎 吃早餐</view>
+              <view class='list-right'>7:00</view>
+            </view>
+            <view class='thing-list'>
+              <view class='list-left'>乘坐地铁到龙翔桥</view>
+              <view class='list-right'>8:00</view>
+            </view>
+            <view class='thing-list'>
+              <view class='list-left'>在In77 逛街</view>
+              <view class='list-right'>8:10</view>
+            </view>
+            <view class='thing-list'>
+              <view class='list-left'>在 烤肉店 吃午餐</view>
+              <view class='list-right'>11:00</view>
+            </view>
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>甜蜜旋风</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            刚刚翻了去年两月份的足迹记录，看到了我与她的曾经的故事，想想时间流逝的真快，
+            我已经不知不觉中习惯了她的存在，不习惯了她的离去。忘记一个人究竟需要多久，
+            又有多难，只有经历过的人才能理解，在线卑微····[心碎][心碎]
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>甜蜜旋风</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            生活中的趣味减压神器
+            用了这个筑梦风华我感觉好像自己不再是路痴了，真的超好用，
+            在商场里逛街没在怕的，和小姐妹们一起有它就够了，还有有了这个
+            吃喝玩乐不用再入坑了，真的看到别的用户的评价就大概知道了这家
+            店是否合自己心意，真的省了不少时间去问问朋友啊啥的。还有就是
+            我也可以随时随地分享我自己的足迹，这样回忆满满的感觉真好，成
+            功路转粉~
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>台州某上班族</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            简单趣味，寻找生活中的快乐
+            我是一个经常浏览“应用市场”新品列表的人，我愿意花时间甚
+            至花些小钱去尝试每一款我感兴趣的应用。
+            早有耳闻“筑梦风华”是国内一款使用前沿 AR 技术的小程序，现
+            在终于如愿体验了。在功能上，不负期望的是它把多个应用能提供的
+            服务综合在一个应用上，操作简单但功能详细，适合广大人群普遍使
+            用。在外观上，它的设计没有直男审美，大部分界面都简洁明了，没
+            有恶意广告弹窗。
+            “筑梦风华”确实能够能够减少我在搜索上浪费的时间而且可以
+            让我用同等的时间去了解更加优质的攻略和消息。普通用户能够享受
+            的服务已经很棒了，但是我还是没有忍住体验了一把 VIP 待遇，话不
+            多说，有时候花一点小钱换来更优质的服务真心是特别划算的。而且
+            还有趣味的排行玩法，我已经把它推荐给我身边的朋友们，准备疯狂
+            探店和他们“一决高下”。
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>嘉兴某大学生</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            足迹分享，快乐生活
+            筑梦风华小程序蛮好用的。我热爱生活，喜欢与大家一起分享生
+            活，常常会晒自己的生活照，我在筑梦风华可以向指定人群分享自己
+            的生活，在商店、景点等留下自己的足迹，自己的故事。与此同时，
+            我还能通过该平台知道在此地的别人的故事与足迹。
+            以前做攻略常常上百度、小红书，有时候还会踩雷，筑梦风华会
+            根据你的平时喜好，喜欢的口味罗列商铺，网红店也会根据热度显示，
+            但会根据个人的口味以及排队时间等进行分析展现数据，给予你全面
+            的信息让你有选择的空间。最最让我头疼的便是各大商场内的店铺寻
+            找，而筑梦风华很好地解决了这一问题，该小程序采用的是室内 AR
+            导航，再偏的商铺也能轻而易举的找到，而且实景展现，有可爱的动
+            画形象互动，指引你前往。好评！
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>宁波某企业白领</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            我的快乐导航仪
+            用户体验：如果满分是 10 分,我给十二分！非常可爱的小程序，
+            更惊喜的它还很实用，对我本人这种路痴非常
+            友好。很多网红店或者别人推荐的店都比较偏僻，想去吃一顿也要提
+            前去探路，还不一定找得到，小熊猫的实景 AR 导航真的赞！还有记录
+            回忆的功能，随手拍随手写很方便，让美好的心情定格下来，很久以
+            后翻出也能马上想起那时的欢乐，推荐大家使用。
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>杭州某知名网红</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='center-box'>
+        <view class='sanjiao'></view>
+        <view class='box-top'>
+          <view class='box-time'>2019-04-04</view>
+          <view class='box-place'></view>
+        </view>
+        <view class='box-center'>
+          <view class='box-text' style='margin-bottom:60rpx'>
+            我的客户制造机
+            自从使用了筑梦风华小程序，加盟了商家平台之后，又吸引了一
+            大波我的小粉丝和客户来我店里玩耍呢，以前有许多小宝贝找不到我
+            家的店，都说位置有点偏僻，现在他们告诉我用上了筑梦风华小程序
+            之后，实景 AR 导航不仅能看到周围的街景样貌，还有憨态可掬的小
+            熊猫陪伴他们找店呢，方便快捷，现在也很少会有电话来找我问路了，
+            以前迷路的客户用上了筑梦风华小程序之后，跟着 AR 小熊猫的指引
+          </view>
+        </view>
+        <view class='box-bottom'>
+          <view class='bottom-left'>杭州某网红店老板</view>
+          <view class='bottom-right'>
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/setting.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/bianji.png'></image>
+            </view>|
+            <view class='bottom-right-icon'>
+              <image src='http://www.isgang.top/weixin/laji.png'></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 占位 -->
+  <view class='view-none-bottom'></view>
+  <view class='view-footer'>
+    <view class='footer-left'>
+      《
+    </view>
+    <view class='footer-right'>
+      <button class='btn-new'>+ 新建足迹故事</button>
+    </view>
+  </view>
+</view>

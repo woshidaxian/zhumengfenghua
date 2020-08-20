@@ -1,0 +1,19 @@
+<!--pages/more/more.wxml-->
+<view class='practical'>实用工具</view>
+<view class='practical-nav'>
+  <block wx:for="{{navData}}" wx:key="id">
+    <view class='nav' bindtap='navBtn' data-index='{{index}}'>
+      <image src='{{item.imgSrc}}' class='nav-img'></image>
+      <text class='nav-txt'>{{item.name}}</text>
+    </view>
+  </block>
+</view>
+<view class='practical'>第三方提供服务</view>
+<view class='other-nav'>
+  <block wx:for="{{navDataOther}}" wx:key="id">
+    <view class='nav'>
+      <image src='{{item.imgSrc}}' class='nav-img'></image>
+      <text class='nav-txt'>{{item.name}}</text>
+    </view>
+  </block>
+</view>
